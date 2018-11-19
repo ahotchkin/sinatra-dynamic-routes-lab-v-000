@@ -30,6 +30,6 @@ class App < Sinatra::Base
     elsif @operation == "divide"
       /
     end
-    "#{params[:number1].to_i} @operation #{params[:number2].to_i}"
+    "#{params[:number1].to_i} #{@operation} #{params[:number2].to_i}"
   end
 end
